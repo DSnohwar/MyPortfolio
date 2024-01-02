@@ -20,8 +20,8 @@ const projectsData = [
         description: "A Modern Digital Portfolio Website built with NextJs and TailwindCSS",
         image: "/images/projects/portfolio.png",
         tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/DSnohwar/MyPortfolio",
+        previewUrl: "https://dsnohwar-portfolio.vercel.app/",
     },
     {
         id: 3,
