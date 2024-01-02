@@ -45,7 +45,7 @@ const projectsData = [
         id: 5,
         title: "Realtime Emotion Recognition Application",
         description: "Realtime Emotion Recognition Application with OpenCV and Deep Learning Model",
-        image: "/images/projects/realTimeFER.png",
+        image: "/images/projects/real.png",
         tag: ["All", "DS"],
         gitUrl: "https://github.com/DSnohwar/MoodSyncTunes/blob/main/FER.py",
         previewUrl: "https://github.com/DSnohwar/MoodSyncTunes/blob/main/FER.py",
