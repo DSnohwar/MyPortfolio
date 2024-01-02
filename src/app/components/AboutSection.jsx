@@ -34,7 +34,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Deep Learning-IIT Madras, NPTEL</li>
+        <li>Deep Learning-IIT Madras, NPTEL(Course Topper-Top1%)</li>
         <li>Data Science and Machine Learning, Udemy</li>
         <li>Data Structures and Algorithms in Java, Coding Ninja</li>
       </ul>
