@@ -9,12 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Java/Python</li>
+        <li>JavaScript/React</li>
+        <li>NextJs</li>
+        <li>TailwindCss</li>
+        <li>MongoDB/SQL</li>
+        <li>Numpy/Pandas/Seaborn</li>
+        <li>Scikit-learn/Tensorflow</li>
       </ul>
     ),
   },
@@ -23,8 +24,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Netaji Subhas University of Technology, Delhi</li>
+        <li>Kendriya Vidyalaya, Karkardooma, Delhi</li>
       </ul>
     ),
   },
@@ -33,8 +34,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Deep Learning-IIT Madras, NPTEL</li>
+        <li>Data Science and Machine Learning, Udemy</li>
+        <li>Data Structures and Algorithms in Java, Coding Ninja</li>
       </ul>
     ),
   },
@@ -51,13 +53,14 @@ const AboutSection = () => {
 
 
   return (
-    <section className='text-white'>
+    <section
+    className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16'>
         <Image src="/images/about-image.png" width={500} height={500} alt="About Image" />
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officiis repudiandae voluptatibus ratione itaque dignissimos repellat quae quas fuga laudantium perspiciatis voluptatum, tempore nulla doloribus harum neque? Dolores, neque illum!
+           I am a web developer/Data Scientist with Proficiency in a range of technologies, including JavaScript, Python, React, MongoDB, and more. My technical toolkit includes Flask, TensorFlow/Keras, NextJS, and TailWindCSS. With a solid foundation in HTML, CSS, and JavaScript, coupled with my keen analytical skills in Data Science and Machine Learning, I bring a dynamic and versatile skill set to the table. As a proactive learner, I am enthusiastic about collaborating with teams to craft exceptional applications, contributing to the ever-evolving landscape of technology.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
