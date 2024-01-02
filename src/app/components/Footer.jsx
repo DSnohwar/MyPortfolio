@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 const Footer = () => {
-  const logo="/images/logo1.png"
+  const logo="/images/logo2.png"
   return (
     <footer className='footer z-10 border border-t-[#33353F] border-l-transparent border-r-transparant text-white'>
         <div className='container p-12 flex justify-evenly'>
