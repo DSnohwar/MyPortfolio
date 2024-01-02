@@ -9,10 +9,10 @@ const projectsData = [
         id: 1,
         title: "FER-Music Recommendation System",
         description: "Facial Emotion Recognition based Music Recommendation System, Self build Model with CNN",
-        image: "/images/projects/FER-Music.png",
+        image: "/images/projects/fer.png",
         tag: ["All", "DS", "Web"],
-        gitUrl: "https://github.com/DSnohwar/MyPortfolio",
-        previewUrl: "/",
+        gitUrl: "https://github.com/sameer-shreyas/MoodSyncTunes",
+        previewUrl: "https://github.com/DSnohwar/MoodSyncTunes",
     },
     {
         id: 2,
