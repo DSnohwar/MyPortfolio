@@ -39,8 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          I am enthusiastic about collaborating with teams to craft exceptional applications, contributing to the ever-evolving landscape of technology.
           </p>
           <div>
             <Link
