@@ -59,6 +59,15 @@ const projectsData = [
         gitUrl: "https://github.com/DSnohwar/DS-ML-Projects/tree/main/CIA%20Country%20Analysis%20and%20Clustering",
         previewUrl: "https://github.com/DSnohwar/DS-ML-Projects/blob/main/CIA%20Country%20Analysis%20and%20Clustering/Country%20Analysis.ipynb",
     },
+    {
+        id: 7,
+        title: "Glassdoor Interview Scraper",
+        description: "Glassdoor Interview Scraper with Python and Selenium",
+        image: "/images/projects/glassdoor.png",
+        tag: ["All", "DS", "Web"],
+        gitUrl: "https://github.com/DSnohwar/GlassDoor-Interview-Scraper",
+        previewUrl: "https://glassdoor-interview-scraper.streamlit.app/",
+    },
 ];
 
 const ProjectSection = () => {
